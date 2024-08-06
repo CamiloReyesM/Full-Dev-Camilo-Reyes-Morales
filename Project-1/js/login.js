@@ -31,7 +31,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     }
 
     if (user && user.clave === password) {
-        alert('Login successful');
+        alert('Inicio de sesion exitosa');
         attempts[username] = 0; // 
         document.getElementById('message').textContent = '';
     } else {
